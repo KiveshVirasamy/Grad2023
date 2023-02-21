@@ -1,0 +1,45 @@
+html,body{
+    height: 100vh;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem 2rem;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: purple;
+    
+    padding: 80px;
+    height: 500px;
+    width: 100%;
+    
+}
+
+.child{
+    padding: 20px;
+    min-width: 100px;
+    min-height: 100px;
+    font-size: 30px;
+    background-color: gold;
+    border: 1px solid white;
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+
+.wallpaper{
+    background-position: 50%;
+    
+}
+
+/*.child:nth-child(odd){
+   font-size: 6rem;
+}*/

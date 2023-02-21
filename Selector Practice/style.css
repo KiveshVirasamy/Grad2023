@@ -1,0 +1,23 @@
+.intro{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+#stream{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro, #stream{
+    color: blue;
+}
+h1{
+    color: aqua;
+}
+h1, p{
+    font-style: italic;
+}
+div p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div > p{
+    color: blueviolet;
+}
